@@ -1,8 +1,8 @@
 <?php
 session_start();
-include("connection.php");
+include 'connection.php';
 $con = OpenCon();
-
+extract($_REQUEST);
 $query="Select * from role";
 $result=mysqli_query($con,$query);
 
