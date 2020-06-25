@@ -1,6 +1,6 @@
 <?php
 
-private function OpenCon(){
+function OpenCon(){
 	$hostname="localhost";
 	$user_name="root";
 	$password="";
