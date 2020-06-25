@@ -4,7 +4,7 @@ include("connection.php");
 $con = OpenCon();
 
 $query="Select * from role";
-$result=mysqli_query($query);
+$result=mysqli_query($query,$con);
 
 ?>
 
